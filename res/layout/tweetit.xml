@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2012 Faisal Mooraby
+
+    This file is part of RTwicudroid.
+
+    RTwicudroid is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>
+-->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical">
+
+
+  
+	<EditText 
+		android:text="123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/" 
+		android:id="@+id/EditTextTweetit" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:maxLength="140" android:typeface="sans" android:height="120dip"/>
+	
+	<Button 
+		android:text="Tweet It" 
+		android:id="@+id/ButtonTweetIt" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		/>
+
+	
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffbb00" android:id="@+id/TextViewlastupdate"></TextView>
+</LinearLayout>
+

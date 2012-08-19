@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2012 Faisal Mooraby
+
+    This file is part of RTwicudroid.
+
+    RTwicudroid is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>
+-->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+        
+        <TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:textStyle="bold" 
+    		android:textColor="#ffffff" 
+    		android:background="#AA0000" 
+    		android:text="@string/TextView_wotd" 
+    		android:id="@+id/TextView_wotd" 
+    		android:padding="1dp"/>
+
+		<Button android:id="@+id/ButtonDefinition" 
+			android:textSize="10dip" 
+			android:textStyle="bold" 
+			android:layout_width="fill_parent" 
+			android:padding="0dip" 
+			android:layout_margin="0dip" 
+			android:minHeight="5dip" 
+			android:text="Hide Definition" 
+			android:layout_height="30dip"/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:background="#333333" 
+    		android:id="@+id/TextView_definition"
+    		android:text="@string/TextView_definition"
+    		android:textStyle="italic" 
+    		android:padding="1dp"/>
+        
+        
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp" />
+    </LinearLayout>
+</TabHost>

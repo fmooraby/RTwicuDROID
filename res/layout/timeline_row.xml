@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2012 Faisal Mooraby
+
+    This file is part of RTwicudroid.
+
+    RTwicudroid is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>
+-->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+ 
+  <TextView 
+        android:id="@+id/TextView_tweet" 
+        android:layout_height="wrap_content" 
+        android:text="On the way to creating a culture of #reading at a rural South African elem school-Collected 8,000 books so far 4 libraryhttp://bit.ly/bqIa6c" 
+        android:layout_width="fill_parent" 
+        android:textSize="13dip"
+        android:paddingTop="3px"
+        android:textColorHighlight="#000000" android:textColor="#dddddd"/>
+    	
+   <TextView 
+        android:id="@+id/TextView_name_date" 
+        android:layout_height="wrap_content" 
+        android:typeface="monospace" 
+        android:textSize="10sp" android:layout_width="fill_parent"
+    	android:paddingBottom="3px" android:textColor="#ffbb00" android:textColorHighlight="#000000"/>
+  
+  
+</LinearLayout>

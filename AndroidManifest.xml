@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2012 Faisal Mooraby
+
+    This file is part of RTwicudroid.
+
+    RTwicudroid is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.QualbSoft.RTwicudroid"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk android:minSdkVersion="8" />
+<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".RTwicudroidActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateOauth" android:label="@string/app_name"></activity>
+        <activity android:name=".TwitterRegister" android:label="@string/app_name"></activity>
+        <activity android:name=".RTwicudroid_TAB" android:label="@string/app_name" ></activity>
+	    <activity android:name=".RTwicudroid_TimeLine" android:label="@string/app_name" ></activity>
+    	<activity android:name=".RTwicudroid_Indv" android:label="@string/app_name" ></activity>
+    	<activity android:name=".RTwicudroid_DisplayRTMenu" android:label="@string/app_name" ></activity>
+    	<activity android:name=".RTwicudroid_Tweetit" android:label="@string/app_name" ></activity>
+    	<activity android:name=".CloseALL" android:label="@string/app_name" android:launchMode="singleTask"></activity>
+    
+    </application>
+    
+</manifest>

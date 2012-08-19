@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="/home/faisal/PROGRAMMING/API/twitter/jtwitter/2.5/jtwitter.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/faisal/PROGRAMMING/API/Oauth/signpost/1.2.1.1/signpost-core-1.2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/faisal/PROGRAMMING/API/html/htmlcleaner-2.2.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
